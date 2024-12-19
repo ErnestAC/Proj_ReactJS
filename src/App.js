@@ -21,36 +21,20 @@ function App() {
         <section className="section">
           <div className="columns">
             <div className="column is-4">
-              <ProfileCard titulo="Alexa" handle="@alexa22" urlImg={AlexaImg} />
+              <ProfileCard titulo="Alexa" handle="@alexa22" imagen={AlexaImg} />
             </div>
             <div className="column is-4">
-              <ProfileCard titulo="Siri" handle="@Siri10" urlImg={SiriImg} />
+              <ProfileCard titulo="Siri" handle="@Siri10" imagen={SiriImg} />
             </div>
             <div className="column is-4">
               <ProfileCard
                 titulo="Cortana"
                 handle="@Cortana99"
-                urlImg={CortanaImg}
+                imagen={CortanaImg}
               />
             </div>
           </div>
         </section>
-      </div>
-
-      <div className="App-header">
-        <img src={AlexaImg} className="App-logo" alt="logo" />
-        <ProfileCard titulo="Alexa" imagen={AlexaImg} />
-        <ProfileCard
-          titulo="Cortana"
-          handle="I've been discontinued"
-          imagen={CortanaImg}
-        />
-        <ProfileCard
-          titulo="Siri"
-          imagen={SiriImg}
-          handle="Apple is expensive"
-        />
-
       </div>
     </header>
   );
