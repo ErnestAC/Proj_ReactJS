@@ -2,15 +2,12 @@ import React from "react";
 import "bulma/css/bulma.css";
 import "./Navbar.css";
 import CartWidget from "./CartWidget";
+import BrandLogo from "./BrandLogo"
 
 const Navbar = () => {
     return (
         <nav className="navbar">
-        <div className="navbar-left">
-            <a href="/" className="logo">
-            ShopNHour
-            </a>
-        </div>
+        <BrandLogo />
         <div className="navbar-center">
             <ul className="nav-links">
                 <li>
