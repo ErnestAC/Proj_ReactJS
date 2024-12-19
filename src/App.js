@@ -6,8 +6,9 @@
 
 import logo from "./logo.svg";
 import "./App.css";
-import { FaBeer } from "react-icons/fa";
 import "bulma/css/bulma.css"
+import Navbar from "./Navbar";
+import ProfileCard from "./ProfileCard"
 
 function SayThis(something) {
   return <h3>{something}</h3>;
@@ -19,19 +20,13 @@ function AddBox() {
 function App() {
   return (
     <div className="App">
+      <Navbar />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" width="100px" />
-        <tb>
-          <h1>
-            Make an <u>e-commerce</u> thing
-          </h1>
-          <tr>A</tr>
-          <tr>B</tr>
-          <tr>C</tr>
-          <tr>
-            <FaBeer />
-          </tr>
-        </tb>
+          <ProfileCard titulo="abc1"/>
+          <ProfileCard titulo="def2"/>
+          <ProfileCard titulo="ghi3" handle="2han"/>
         <p>
           Change <code>src/App.js</code> and save to reload to make moar better.
         </p>
