@@ -1,11 +1,12 @@
-import { FaBellConcierge } from "react-icons/fa6";
+// not code import { FaBellConcierge } from "react-icons/fa6";
 
-function BrandLogo() {
+function BrandLogo({titleTienda}) {
   return (
     <div className="navbar-left">
-      <a href="/" className="logo">
-        <FaBellConcierge /> ShopNHour
-      </a>
+      <div className="logo">
+        
+        {titleTienda}
+      </div>
     </div>
   );
 }

@@ -4,9 +4,9 @@
 // El atributo class se escribe como className
 //
 
-import AlexaImg from "./img/alexa.png";
-import CortanaImg from "./img/cortana.png";
-import SiriImg from "./img/siri.png";
+import ARCoImg from "./img/arco.png";
+import AlstomImg from "./img/alstom.png";
+import SiemensImg from "./img/siemens.png";
 
 import "./App.css";
 import "bulma/css/bulma.css";
@@ -21,16 +21,24 @@ function App() {
         <section className="section">
           <div className="columns">
             <div className="column is-4">
-              <ProfileCard titulo="Alexa" handle="@alexa22" imagen={AlexaImg} />
-            </div>
-            <div className="column is-4">
-              <ProfileCard titulo="Siri" handle="@Siri10" imagen={SiriImg} />
+              <ProfileCard
+                titulo="ARCo"
+                handle="V12 Diesel-Electric"
+                imagen={ARCoImg}
+              />
             </div>
             <div className="column is-4">
               <ProfileCard
-                titulo="Cortana"
-                handle="@Cortana99"
-                imagen={CortanaImg}
+                titulo="Siemens"
+                handle="Electric @ 15kV"
+                imagen={SiemensImg}
+              />
+            </div>
+            <div className="column is-4">
+              <ProfileCard
+                titulo="Alstom"
+                handle="I16 Diesel-Electric"
+                imagen={AlstomImg}
               />
             </div>
           </div>

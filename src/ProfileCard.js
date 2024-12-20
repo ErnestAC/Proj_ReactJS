@@ -5,7 +5,7 @@ function ProfileCard({titulo,handle,imagen}) {
     return (
         <div className="card">
             <div className="card-img">
-                <figure className="image is-1by1">
+                <figure className="image is-16by9">
                     <img src={imagen} alt="logo"/>
                 </figure>
             </div>
