@@ -26,3 +26,16 @@
 .App-input{
       color:red;
 }
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: whitesmoke;
+}
+a:active {
+  color: white;
+} 
