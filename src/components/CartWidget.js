@@ -4,7 +4,7 @@ import "../css/CartWidget.css";
 function CartWidget({ cartItemCount }) {
   return (
     <div>
-      <FaShoppingCart size={24} />
+      <FaShoppingCart size={26} />
       <a href="/cart" className="cart-icon">
         <i className="fas fa-shopping-cart"></i>
         <div className="cart-count">{cartItemCount}</div>
