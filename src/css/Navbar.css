@@ -1,25 +1,10 @@
-@font-face {
-    font-family: "Roboto";
-    src:
-        local("Roboto"),
-        url("../fonts/RobotoCondensed-Regular.ttf");
-}
-
-@font-face {
-    font-family: "OpenSans";
-    src:
-        local("Roboto"),
-        url("../fonts/OpenSans-VariableFont_wdth.ttf");
-}
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 32, 32, 0.999);
     color: white;
-    padding: 0.9rem;
+    padding: 0.7rem;
 }
 
 .navbar-left .logo {
