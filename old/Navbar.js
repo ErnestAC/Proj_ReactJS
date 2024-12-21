@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="navbar-center">
           <ul className="nav-links">
             <li>
-              <a href="/products">Products</a>
+              <a href="/product">Products</a>
             </li>
             <li>
               <a href="/about">About Us</a>

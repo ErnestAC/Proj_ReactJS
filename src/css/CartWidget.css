@@ -1,14 +1,5 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(0, 32, 32, 0.999);
-    color: white;
-    padding: 0.7rem;
-}
-
 .navbar-right .cart-icon,
-.navbar-right .user-icon {
+.navbar-right {
     color: white;
     text-decoration: none;
     margin-left: 1.6rem;

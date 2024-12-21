@@ -1,6 +1,6 @@
 import React from "react";
 import "bulma/css/bulma.css";
-import "./Navbar.css";
+import "../css/Navbar.css";
 import CartWidget from "./CartWidget";
 import BrandLogo from "./BrandLogo"
 
@@ -9,11 +9,11 @@ const Navbar = () => {
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
-            <BrandLogo titleTienda={"SHOPNHOUR"}/>
+            <BrandLogo titleTienda={"SHOPNHOUR"} />
           </a>
         </div>
 
-        <div id="navbarBasicExample" className="navbar-menu">
+        <div id="navbar" className="navbar-menu">
           <div className="navbar-start">
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link" href="/products">
@@ -36,22 +36,16 @@ const Navbar = () => {
                 </a>
               </div>
             </div>
-            <a className="navbar-item" href="/products">
+            <a className="navbar-item" href="/contact">
               Contact
             </a>
-            <a className="navbar-item" href="/products">
+            <a className="navbar-item" href="/about">
               About
             </a>
           </div>
 
-          <div className="navbar-end">
-            <div className="navbar-item">
-              <div className="buttons">
-                <div className="navbar-right">
-                  <CartWidget cartItemCount={3} />
-                </div>
-              </div>
-            </div>
+          <div className="navbar-right">
+                <a href="/cart"><CartWidget cartItemCount={3}/></a>
           </div>
         </div>
       </nav>

@@ -4,47 +4,18 @@
 // El atributo class se escribe como className
 //
 
-import ARCoImg from "./img/arco.png";
-import AlstomImg from "./img/alstom.png";
-import SiemensImg from "./img/siemens.png";
-
-import "./App.css";
+import "./css/App.css";
 import "bulma/css/bulma.css";
-import Navbar from "./Navbar";
-import ProfileCard from "./ProfileCard";
+import Navbar from "./components/Navbar";
+
+import ContentStage from "./components/ContentStage";
 
 function App() {
   return (
-    <header className="App">
+    <body className="App">
       <Navbar />
-      <div className="container">
-        <section className="section">
-          <div className="columns">
-            <div className="column is-4">
-              <ProfileCard
-                titulo="ARCo"
-                handle="V12 Diesel-Electric"
-                imagen={ARCoImg}
-              />
-            </div>
-            <div className="column is-4">
-              <ProfileCard
-                titulo="Siemens"
-                handle="Electric @ 15kV"
-                imagen={SiemensImg}
-              />
-            </div>
-            <div className="column is-4">
-              <ProfileCard
-                titulo="Alstom"
-                handle="I16 Diesel-Electric"
-                imagen={AlstomImg}
-              />
-            </div>
-          </div>
-        </section>
-      </div>
-    </header>
+      <ContentStage />
+    </body>
   );
 }
 
