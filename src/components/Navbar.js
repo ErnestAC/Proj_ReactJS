@@ -2,6 +2,7 @@ import React from "react";
 import "bulma/css/bulma.css";
 import "../css/Navbar.css";
 import CartWidget from "./CartWidget";
+import UserWidget from "./UserWidget";
 import BrandLogo from "./BrandLogo";
 
 const Navbar = () => {
@@ -47,6 +48,9 @@ const Navbar = () => {
         <div className="navbar-right">
           <a href="/cart" className="navbar-item">
             <CartWidget cartItemCount={3} />
+          </a>
+          <a href="/user" className="navbar-item">
+            <UserWidget AlertCount={0} />
           </a>
         </div>
       </div>

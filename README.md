@@ -1,1 +1,1 @@
-# A Store named "SHOPNHOUR" that sells train models.
+# A Store named "SHOPNHOUR" that sells model trains

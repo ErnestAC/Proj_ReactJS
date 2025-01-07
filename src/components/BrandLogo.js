@@ -4,8 +4,7 @@ function BrandLogo({titleTienda}) {
   return (
     <div className="navbar-left">
       <div className="logo">
-        
-        {titleTienda}
+          {titleTienda}
       </div>
     </div>
   );

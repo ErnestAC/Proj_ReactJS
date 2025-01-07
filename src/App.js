@@ -6,10 +6,12 @@ import ContentStage from "./components/ItemListContainer";
 
 function App() {
   return (
-    <body className="App">
+    <div className="App">
       <Navbar />
-      <ContentStage greetingMessage={`These are some of the available models in stock`} />
-    </body>
+      <ContentStage
+        greetingMessage={`These are some of the available models in stock`}
+      />
+    </div>
   );
 }
 
