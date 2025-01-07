@@ -1,13 +1,7 @@
 import { FaShoppingCart } from "react-icons/fa";
-import { useState, useEffect } from 'react'
 
 const CartWidget = ({ cartItemCount }) => {
   
-  const [count, setCount] = useState(0) //Use default value 0
-
-  useEffect(() => {
-    console.log("AAAAA", cartItemCount)
-  })
 
   return (
     <div>
