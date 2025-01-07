@@ -6,7 +6,7 @@ import ARCoImg from "../img/arco.png";
 import AlstomImg from "../img/alstom.png";
 import SiemensImg from "../img/siemens.png";
 
-import ProfileCard from "./ItemCard";
+import ItemCard from "./ItemCard";
 
 const ItemListContainer = ({ greetingMessage }) => {
   return (
@@ -16,7 +16,7 @@ const ItemListContainer = ({ greetingMessage }) => {
         
         <div className="columns">
           <div className="column is-4">
-            <ProfileCard
+            <ItemCard
               titulo="ARCo"
               handle="V12 Diesel-Electric"
               imagen={ARCoImg}
@@ -26,7 +26,7 @@ const ItemListContainer = ({ greetingMessage }) => {
             />
           </div>
           <div className="column is-4">
-            <ProfileCard
+            <ItemCard
               titulo="Siemens"
               handle="Electric @ 15kV"
               imagen={SiemensImg}
@@ -36,7 +36,7 @@ const ItemListContainer = ({ greetingMessage }) => {
             />
           </div>
           <div className="column is-4">
-            <ProfileCard
+            <ItemCard
               titulo="Alstom"
               handle="I16 Diesel-Electric"
               imagen={AlstomImg}

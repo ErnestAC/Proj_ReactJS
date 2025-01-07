@@ -2,7 +2,7 @@
 
 import ItemCount from "./ItemCount";
 
-function ProfileCard({titulo,handle,imagen,description,stock,initial}) {
+function ItemCard({titulo,handle,imagen,description,stock,initial}) {
 
     return (
       <div className="card">
@@ -24,4 +24,4 @@ function ProfileCard({titulo,handle,imagen,description,stock,initial}) {
     );
 }
 
-export default ProfileCard;
+export default ItemCard;

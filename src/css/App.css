@@ -40,17 +40,6 @@ a:active {
   color: white;
 } 
 
-
-
-
-
-
-
-
-
-
-
-
 .navbar-right .cart-icon,
 .navbar-right {
     color: white;
@@ -73,9 +62,17 @@ a:active {
 .ItemCounter {
   display: flex;
   align-items: center;
-  padding: 0.1rem 0.1rem;
-  gap: 1.1rem;
+  padding: 0.9rem 0.1rem 1rem 0.1rem;
+  gap: 0.6rem;
   font-weight:bold;
   color: white;
   font-size: 0.8rem;
+}
+
+.ItemCounterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: "10px";
+  padding: 0.9rem 0.1rem 1rem 0.1rem;
 }
