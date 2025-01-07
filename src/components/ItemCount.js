@@ -15,7 +15,7 @@ const increment = () => {
     };
 
     const decrement = () => {
-    if (count > 1) {
+    if (count > 0) {
         setCount(count - 1);
     }
     };
@@ -27,13 +27,13 @@ const increment = () => {
             flexDirection: "column",
             alignItems: "center",
             gap: "10px",
-        }}
+            }}
         >
-        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <button className="button" onClick={decrement} disabled={count <= 1}>
+        <div className="ItemCounter">
+            <button className="button" onClick={decrement} disabled={count <= 0}>
             -
             </button>
-            <span>{count}</span>
+            <span className="ItemCounter">{count}</span>
             <button
             className="button"
             onClick={increment}

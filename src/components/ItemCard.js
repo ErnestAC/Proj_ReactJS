@@ -2,7 +2,7 @@
 
 import ItemCount from "./ItemCount";
 
-function ProfileCard({titulo,handle,imagen,stock,initial}) {
+function ProfileCard({titulo,handle,imagen,description,stock,initial}) {
 
     return (
       <div className="card">
@@ -14,11 +14,12 @@ function ProfileCard({titulo,handle,imagen,stock,initial}) {
 
         <div className="card-content">
           <div className="media-content">
-            <h2 className="title is-4">{titulo}</h2>
+            <h2 className="title is-5">{titulo}</h2>
             <p className="subtitle is-6">{handle}</p>
+            <p className="subtitle is-6">{description}</p>
           </div>
         </div>
-        <ItemCount stock={stock} initial={initial}/>
+        <ItemCount stock={stock} initial={initial} />
       </div>
     );
 }
