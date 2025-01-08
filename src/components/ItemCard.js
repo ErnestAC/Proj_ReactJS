@@ -1,4 +1,4 @@
-// import ItemCount from "./ItemCount";
+// not code import ItemCount from "./ItemCount";
 
 import ItemCount from "./ItemCount";
 
@@ -16,7 +16,7 @@ function ItemCard({titulo,handle,imagen,description,stock,initial}) {
           <div className="media-content">
             <h2 className="title is-5">{titulo}</h2>
             <p className="subtitle is-6">{handle}</p>
-            <p className="subtitle is-6">{description}</p>
+            <p className="content is-7">{description}</p>
           </div>
         </div>
         <ItemCount stock={stock} initial={initial} />

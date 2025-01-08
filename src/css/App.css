@@ -41,11 +41,17 @@ a:active {
 } 
 
 .navbar-right .cart-icon,
-.navbar-right {
+.navbar-right, .logo-container {
     color: white;
     text-decoration: none;
     margin: 1.6rem;
     position: relative;
+}
+
+.logo-container {
+  padding: 0.1rem 0.7rem;
+  gap: 0;
+  margin: 0;
 }
 
 .navbar-right .cart-count {

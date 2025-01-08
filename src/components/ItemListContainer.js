@@ -12,7 +12,7 @@ const ItemListContainer = ({ greetingMessage }) => {
   return (
     <div className="container">
       <section className="section">
-        <div class="notification">{greetingMessage}</div>
+        <div className="notification">{greetingMessage}</div>
         
         <div className="columns">
           <div className="column is-4">
