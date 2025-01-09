@@ -2,13 +2,14 @@
 
 import ItemCount from "./ItemCount";
 
-function ItemCard({titulo,handle,imagen,description,stock,initial}) {
+function ItemCard({ titulo, handle, imagen, description, stock, initial }) {
 
-    return (
+  return (
+    <div className="column is-4">
       <div className="card">
         <div className="card-img">
           <figure className="image is-16by9">
-            <img src={imagen} alt="logo" />
+            <img src={(imagen)} alt={description} />
           </figure>
         </div>
 
@@ -21,7 +22,8 @@ function ItemCard({titulo,handle,imagen,description,stock,initial}) {
         </div>
         <ItemCount stock={stock} initial={initial} />
       </div>
-    );
+    </div>
+  );
 }
 
 export default ItemCard;
