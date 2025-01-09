@@ -23,12 +23,12 @@ const decrement = () => {
 };
 
     return (
-    <div className="ItemCounterContainer">
-        <div className="ItemCounter">
+    <div className="item-counter-container">
+        <div className="item-counter">
             <button className="button" onClick={decrement} disabled={count <= 0}>
                 -
             </button>
-            <span className="ItemCounter">
+            <span className="item-counter">
                 {count} / {stock}
             </span>
             <button

@@ -5,10 +5,10 @@ function BrandLogo({titleTienda}) {
   return (
     <div className="navbar-left">
       <div className="navbar-right">
-        <div className="logo-container">
+        <div className="logo-image">
           <img src={favicon} alt="SHOPNHOUR Logo" className="logo" />
         </div>
-        <div className="logo-container">
+        <div className="logo-text">
           {titleTienda}
         </div>
       </div>
