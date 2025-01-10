@@ -39,13 +39,16 @@ const decrement = () => {
                 +
             </button>
 
+            
             <button
-                className="button is-success is-outlined"
+                className="button"
                 onClick={() => handleAdd(count)}
                 disabled={stock === 0}
             >
                 Add to cart
             </button>
+            
+            
         </div>
     </div>
     );
